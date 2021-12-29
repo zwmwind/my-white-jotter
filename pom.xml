@@ -70,6 +70,19 @@
     </dependencies>
 
     <build>
+<!--        <resources>-->
+<!--            <resource>-->
+<!--                &lt;!&ndash; 这里是配置maven识别的资源的目录 &ndash;&gt;-->
+<!--                <directory>src/main/resources</directory>-->
+<!--                &lt;!&ndash; 配置maven所识别的资源文件 &ndash;&gt;-->
+<!--                <includes>-->
+<!--                    <include>**/*.xml</include>-->
+<!--                    <include>**/*.yml</include>-->
+<!--                    <include>**/*.properties</include>-->
+<!--                </includes>-->
+<!--                <filtering>false</filtering>-->
+<!--            </resource>-->
+<!--        </resources>-->
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
